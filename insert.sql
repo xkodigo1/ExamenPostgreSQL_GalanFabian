@@ -39,6 +39,7 @@ INSERT INTO detalle_pedido_proveedor (id_pedido, id_producto, cantidad, precio_c
 INSERT INTO ventas (id_cliente, fecha, total, id_metodo_pago) VALUES
 (1, '2023-10-05 09:00:00', 100.00, 1),
 (2, '2023-10-06 12:30:00', 200.00, 2),
+(2, '2023-10-09 10:10:00', 500.00, 2),
 (3, '2023-10-07 15:45:00', 150.00, 3);
 
 INSERT INTO detalles_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES
